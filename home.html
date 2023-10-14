@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- styl.css buat design webnya -->
+    <link rel="stylesheet" href="STYLE/style_home.css">
+    <!-- logo webnya --> 
+    <link rel="shortcut icon" type="icon" href="IMAGES/">
+
+    <title>Home | Chrisola</title>
+
+</head>
+    <!-- ini note  buat pengembangan web lebih lanjut -->
+    <!-- Pake web ini 
+        https://lottiefiles.com/web-player
+        https://www.happyhues.co/palettes/11
+        https://neumorphism.io/#e0e0e0
+    -->
+
+    <!-- cara push file baru
+        1. git add .
+      2. git commit -m ""
+    3. git push -u
+    -->
+<body>
+    
+    <!-- ini bagian header bagian <li> atau link ke berbagai pagenya -->
+    <header class="container-header">
+
+        <!-- bagian menubarnya -->
+        <div class="nav">
+            
+            <input type="checkbox" id="nav-check">
+            <div class="nav-header">
+                <div class="nav-title">
+                    <h1 style="font-family: beautifully; color: #6b4e3d;
+                    font-size: 35px; margin-left: 10px;">
+                        Chrisola
+                    </h1>
+
+                    <!-- Logo Toko / Opional mau tulisan atau logo -->
+                    <!-- <img src="IMAGES/" id="logo"> -->
+                </div>
+            </div>
+
+            <!-- ini button responsivenya -->
+            <div class="nav-btn">
+                <label for="nav-check">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </label>
+              </div>
+
+            <!-- ini grid button utama -->
+            <nav class="nav-links">
+                <!-- Ini link ke halaman lainnya -->
+                <ul>
+                    <!-- buat ke home page -->
+                    <a href="home.html">
+                        <b>JASA</b>
+                    </a>
+                    <!-- buat ke about us page -->
+                    <a href="about_us.html">
+                        <b>DESIGN</b>
+                    </a>
+                    <!-- buat ke catalogue page -->
+                    <a href="catalogue.html">
+                        <b>PORTOFOLIO</b>
+                    </a>
+                    <!-- buat ke custom page -->
+                    <a href="https://www.freeconvert.com/png-converter/download">
+                        <b>ABOUT US</b>
+                    </a>
+            </nav>
+
+        </div>
+
+        <!-- image header -->
+        <div id="header-image">
+            <img src="IMAGES/header_bg.png" alt="haeder_image">
+        </div>
+
+        <!-- title page -->
+        <div id="frame-image">
+            <img src="IMAGES/frame.png" alt="frame">
+            <div id="jasa-title-container">
+                <h1>JASA</h1>
+            </div>
+        </div>
+    </header>
+
+    <!-- semua unsur web ada disini -->
+    <main>
+        <!-- ini bagian whatsapp -->
+        <div class="container-whatsapp">
+            <!-- ini untuk link nyambung ke nomor whatssappnya -->
+            <!-- target blank dimaksud biar gak di tab sama kebukanya -->
+            <a href="https://wa.me/6281617000207" target="_blank">
+                <!-- ini logo atau lambang dari whatsappnya -->
+                <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                <lottie-player src="https://lottie.host/789b78b6-71b3-4270-aa69-f4fe2b22f2a7/F5C0DAR09l.json"  background="transparent"  
+                speed="1"  style="width: 80px; height: 80px;" loop  autoplay></lottie-player>
+            </a>
+        </div>
+        <!-- https://lottie.host/789b78b6-71b3-4270-aa69-f4fe2b22f2a7/F5C0DAR09l.json "ini logo wa kotak" --> 
+        <!-- https://assets9.lottiefiles.com/packages/lf20_6hrplbhl.json "ini logo wa bulat" -->
+    </main>
+
+</body>
+
+</html>
